@@ -5,17 +5,17 @@ import java.awt.event.*;
 
 public class CalculadoraApp extends JFrame implements ActionListener {
 
-    // === Operaciones matemáticas ===
+    // Operaciones matemáticas
     private JTextField txtNum1, txtNum2;
     private JLabel lblResultMath;
     private JButton btnSumar, btnRestar, btnMultiplicar, btnDividir;
 
-    // === Conversión de temperatura ===
+    // Conversion de tempertura
     private JTextField txtTemp;
     private JLabel lblResultTemp;
     private JButton btnCtoF, btnFtoC;
 
-    // === Conversión de moneda ===
+    // Conversion de moneda
     private JTextField txtMoneda;
     private JLabel lblResultMoneda;
     private JButton btnUSDtoCOP, btnCOPtoUSD;
@@ -44,7 +44,7 @@ public class CalculadoraApp extends JFrame implements ActionListener {
         mainPanel.setBackground(COLOR_FONDO);
         mainPanel.setBorder(BorderFactory.createEmptyBorder(15, 15, 15, 15));
 
-        // Título general
+        // Titulo general
         JLabel titulo = new JLabel("Calculadora y Convertidor", SwingConstants.CENTER);
         titulo.setFont(new Font("SansSerif", Font.BOLD, 20));
         titulo.setForeground(COLOR_PRIMARIO);
