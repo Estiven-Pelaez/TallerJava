@@ -1,0 +1,22 @@
+# Archivos compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Directorios de IDEs
+.idea/
+*.iml
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+nbproject/
+dist/
+build/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
